@@ -1,4 +1,4 @@
-angular.module('directory', ['ionic', 'directory.controllers', 'directory.services'])
+angular.module('directory', ['ionic', 'forceng', 'directory.controllers', 'directory.services'])
     
     .run(function ($ionicPlatform, $state, force) {
         $ionicPlatform.ready(function () {

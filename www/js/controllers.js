@@ -1,4 +1,4 @@
-angular.module('directory.controllers', [])
+angular.module('directory.controllers', ['forceng'])
 
     /*.controller('EmployeeListCtrl', function ($scope, Employees) {
 
